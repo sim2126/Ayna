@@ -1,0 +1,87 @@
+_wandb:
+    value:
+        cli_version: 0.21.0
+        e:
+            y26mq5mtmiithevskbnfq707ykm32wgv:
+                colab: https://colab.research.google.com/notebook#fileId=1MtxJBrZ9WimojXj4n_ga3oRU0KxdQgRB
+                cpu_count: 1
+                cpu_count_logical: 2
+                cudaVersion: "12.4"
+                disk:
+                    /:
+                        total: "120942624768"
+                        used: "49178693632"
+                email: simantpra@gmail.com
+                executable: /usr/bin/python3
+                gpu: Tesla T4
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Turing
+                      cudaCores: 2560
+                      memoryTotal: "16106127360"
+                      name: Tesla T4
+                      uuid: GPU-d079601e-3f3d-b067-d71e-0d41f8d7d76a
+                host: 99824022b6b1
+                memory:
+                    total: "13608370176"
+                os: Linux-6.1.123+-x86_64-with-glibc2.35
+                program: Untitled28.ipynb
+                python: CPython 3.11.13
+                root: /content
+                startedAt: "2025-08-05T15:43:30.735668Z"
+                writerId: y26mq5mtmiithevskbnfq707ykm32wgv
+        m: []
+        python_version: 3.11.13
+        t:
+            "1":
+                - 1
+                - 5
+                - 11
+                - 41
+                - 49
+                - 53
+                - 71
+                - 105
+            "2":
+                - 1
+                - 5
+                - 11
+                - 41
+                - 49
+                - 53
+                - 71
+                - 105
+            "3":
+                - 2
+                - 3
+                - 16
+            "4": 3.11.13
+            "5": 0.21.0
+            "6": 4.54.0
+            "8":
+                - 1
+                - 12
+            "12": 0.21.0
+            "13": linux-x86_64
+batch_size:
+    value: 32
+dataset_path:
+    value: dataset
+device:
+    value: cuda
+embedding_dim:
+    value: 32
+epochs:
+    value: 100
+image_size:
+    value: 128
+learning_rate:
+    value: 0.001
+project_name:
+    value: public-polygon-colorizer-submission
+unet_channels:
+    value:
+        - 64
+        - 128
+        - 256
+        - 512
